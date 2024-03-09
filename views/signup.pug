@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+      meta(charset='utf-8')
+      meta(name='viewport' content='width=device-width, initial-scale=1')
+      title ShopEra : where Tradition meats Aesthetics
+block scripts
+    script(src="/static/index.js")
+
+block style 
+    style 
+        include ../static/LoginStyle.css
+
+block content
+    section#main-section 
+        div#login-container    
+            div#image1
+                a(href="/login") 
+                    img(src="/static/photos/logo1.jpg", alt="ShopEra")
+            div#container 
+                form#form1(action="/signup", method="post") 
+                    span#span #{message}
+                    h3 User Sign up
+                    label.form Name
+                        input(type="text", name="name")
+                    label.form Email 
+                        input(type="email", name="email",autocomplete="on")
+                    label.form Password
+                        input(type="password", name="password")
+                    label.form Country
+                        input(type="text", name="country")
+                    label.form State 
+                        input(type="text", name="state")
+                    label.form Phone Number 
+                        input(type="text", name="phone")
+                    p.form Forget Password 
+                        a(href="/forget") Reset Password                
+                    input.final(type="submit",value="Sign In")
+
+
+block foot
+    div#footer
+        | Copyright © 2024 Natty.com | All rights reserved

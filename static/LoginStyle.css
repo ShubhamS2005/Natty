@@ -1,0 +1,118 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* main-section */
+#main-section {
+    height: auto;
+    display: flex;
+    background-color: #AEC3E1;
+}
+
+#image1,#image2 {
+    display: flex;  
+    justify-content: center;
+}
+
+#image1 img,#image2 img{
+    height: 86px;
+}
+#login-container{
+    display: flex;
+    height: auto;
+    width: 40%;
+    flex-direction: column;
+}
+#login-container h3{
+    font-size: 1.7rem;
+}
+#image3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#image3 img{
+    height: 460px;
+}
+.image-container{
+    width: 60%;
+}
+#image3 p {
+    padding: 14px 8px;
+    font-size: 1.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    background-color: transparent;
+    margin: 30px 80px;
+    box-shadow: 19px 16px 19px 14px grey;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.final{
+    margin: auto;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.msg{
+    color: blue;
+    font-size: 1.1rem;
+}
+#form2,#form3{
+    display: none;
+}
+.nbtn{
+    cursor: pointer;
+    list-style: none;
+    color: black;
+    background-color: transparent;
+    margin: 8px 4px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 6px;
+}
+
+.nbtn a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 9px 10px;
+    display: block;
+    color: white;
+    
+}
+
+.nbtn:hover{
+    background-color: rgb(155, 155, 19);
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 25px;
+    padding: 2px 3px;
+    height: auto;
+    font-family: 'Kanit', sans-serif;
+}
